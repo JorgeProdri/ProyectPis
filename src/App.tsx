@@ -10,8 +10,17 @@ import {
   Link,
 } from "react-router-dom";
 
-
 function App() {
+
+  const Layout = ()=> {
+    return (
+      <div className="main">
+      
+      </div>
+    )   
+  }
+
+  //ruteo o moverse entre las ventanas
   const router = createBrowserRouter([
     {
       path: "/",
