@@ -1,3 +1,36 @@
-.navbar{
-    
+.navbar {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    //estilo para el logo y la imagen
+    .logo {
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        gap: 10px;
+        img {
+            width: 50px;
+            border-radius: 100%;
+            border: 2px solid black;
+        }
+    }
+
+    .icons {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        .user {
+            display: flex;
+            align-items: center;
+            img {
+                width: 30px;
+                border-radius: 100%;
+                object-fit: cover; 
+                border: 2px solid black;
+            }
+        }
+    }
 }
