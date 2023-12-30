@@ -3,7 +3,11 @@ import "./footer.scss"
 
 const Footer = () => {
   return (
-    <div className="footer">Footer</div>
+    //pie de pagina
+    <div className="footer">
+      <span>Cacao web</span>
+      <span>El mejor cacao del Ecuador</span>
+    </div>
   )
 }
 
